@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F202F4F32A8929220012E191 /* LibraryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F202F4F22A8929220012E191 /* LibraryData.swift */; };
+		F22EA6152AA95B1800180ECC /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EA6142AA95B1800180ECC /* APIHandler.swift */; };
+		F235A8842AAC2FDB00517F19 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F235A8832AAC2FDB00517F19 /* Realm */; };
+		F235A8862AAC2FDB00517F19 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F235A8852AAC2FDB00517F19 /* RealmSwift */; };
+		F238E54F2AAC205B0081AD0B /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238E54E2AAC205B0081AD0B /* Realm.swift */; };
+		F2813B752A8C8BB90032334A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2813B742A8C8BB90032334A /* SplashView.swift */; };
+		F28BAD672A8ABE300035D4CD /* AlbumExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BAD662A8ABE300035D4CD /* AlbumExpandedView.swift */; };
+		F28BAD6B2A8AC4430035D4CD /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BAD6A2A8AC4430035D4CD /* Modal.swift */; };
+		F2A033912AA9966800185A1A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2A033902AA9966800185A1A /* Poppins-Regular.ttf */; };
+		F2A033932AA99AF800185A1A /* VarelaRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2A033922AA99AF800185A1A /* VarelaRound-Regular.ttf */; };
+		F2B933B62A855347007604CF /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B933B52A855347007604CF /* TopView.swift */; };
+		F2B933B82A855485007604CF /* LibraryStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B933B72A855485007604CF /* LibraryStatView.swift */; };
+		F2B933BA2A8559A1007604CF /* DetailedStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B933B92A8559A1007604CF /* DetailedStatView.swift */; };
+		F2B933BC2A856222007604CF /* SpecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B933BB2A856222007604CF /* SpecView.swift */; };
+		F2CA60B72A9D48B0002F7214 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA60B62A9D48B0002F7214 /* InsightsView.swift */; };
+		F2CB06312A8BF39400BD45C7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB06302A8BF39400BD45C7 /* Helpers.swift */; };
 		F2F203672A8499790034FF4F /* MusieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F203662A8499790034FF4F /* MusieApp.swift */; };
 		F2F203692A8499790034FF4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F203682A8499790034FF4F /* ContentView.swift */; };
 		F2F2036B2A84997A0034FF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F2036A2A84997A0034FF4F /* Assets.xcassets */; };
@@ -14,6 +30,12 @@
 		F2F203782A84997A0034FF4F /* MusieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F203772A84997A0034FF4F /* MusieTests.swift */; };
 		F2F203822A84997A0034FF4F /* MusieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F203812A84997A0034FF4F /* MusieUITests.swift */; };
 		F2F203842A84997A0034FF4F /* MusieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F203832A84997A0034FF4F /* MusieUITestsLaunchTests.swift */; };
+		F2F2E8522A948549007E7347 /* ArtistExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2E8512A948549007E7347 /* ArtistExpandedView.swift */; };
+		F2F2E8542A948560007E7347 /* SongExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2E8532A948560007E7347 /* SongExpandedView.swift */; };
+		F2F55A212A8DD42200F6E48D /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F55A202A8DD42200F6E48D /* MediaDetailView.swift */; };
+		F2F7184A2A9A5FA5002AF28D /* SongStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F718492A9A5FA5002AF28D /* SongStatView.swift */; };
+		F2F7184C2A9A5FBD002AF28D /* ArtistStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F7184B2A9A5FBD002AF28D /* ArtistStatView.swift */; };
+		F2F7184E2A9A5FC8002AF28D /* AlbumStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F7184D2A9A5FC8002AF28D /* AlbumStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F202F4F22A8929220012E191 /* LibraryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryData.swift; sourceTree = "<group>"; };
+		F22EA6142AA95B1800180ECC /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		F238E54E2AAC205B0081AD0B /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		F2813B742A8C8BB90032334A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F28BAD662A8ABE300035D4CD /* AlbumExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumExpandedView.swift; sourceTree = "<group>"; };
+		F28BAD6A2A8AC4430035D4CD /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		F2A033902AA9966800185A1A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F2A033922AA99AF800185A1A /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
+		F2B933B52A855347007604CF /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		F2B933B72A855485007604CF /* LibraryStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStatView.swift; sourceTree = "<group>"; };
+		F2B933B92A8559A1007604CF /* DetailedStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStatView.swift; sourceTree = "<group>"; };
+		F2B933BB2A856222007604CF /* SpecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecView.swift; sourceTree = "<group>"; };
+		F2CA60B62A9D48B0002F7214 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		F2CB06302A8BF39400BD45C7 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		F2F203632A8499790034FF4F /* Musie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F203662A8499790034FF4F /* MusieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusieApp.swift; sourceTree = "<group>"; };
 		F2F203682A8499790034FF4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +80,13 @@
 		F2F2037D2A84997A0034FF4F /* MusieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F203812A84997A0034FF4F /* MusieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusieUITests.swift; sourceTree = "<group>"; };
 		F2F203832A84997A0034FF4F /* MusieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2F203902A849A8C0034FF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2F2E8512A948549007E7347 /* ArtistExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistExpandedView.swift; sourceTree = "<group>"; };
+		F2F2E8532A948560007E7347 /* SongExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongExpandedView.swift; sourceTree = "<group>"; };
+		F2F55A202A8DD42200F6E48D /* MediaDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaDetailView.swift; sourceTree = "<group>"; };
+		F2F718492A9A5FA5002AF28D /* SongStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongStatView.swift; sourceTree = "<group>"; };
+		F2F7184B2A9A5FBD002AF28D /* ArtistStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistStatView.swift; sourceTree = "<group>"; };
+		F2F7184D2A9A5FC8002AF28D /* AlbumStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F235A8862AAC2FDB00517F19 /* RealmSwift in Frameworks */,
+				F235A8842AAC2FDB00517F19 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +116,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2A0338F2AA9964400185A1A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F2A033922AA99AF800185A1A /* VarelaRound-Regular.ttf */,
+				F2A033902AA9966800185A1A /* Poppins-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F2A3E9EC2A983537001855CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2813B742A8C8BB90032334A /* SplashView.swift */,
+				F2A3E9EF2A983590001855CA /* CardView */,
+				F2A3E9EE2A98357C001855CA /* ModalViews */,
+				F2A3E9ED2A983548001855CA /* MainViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2A3E9ED2A983548001855CA /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				F2B933B92A8559A1007604CF /* DetailedStatView.swift */,
+				F2B933B52A855347007604CF /* TopView.swift */,
+				F2B933B72A855485007604CF /* LibraryStatView.swift */,
+				F2CA60B62A9D48B0002F7214 /* InsightsView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		F2A3E9EE2A98357C001855CA /* ModalViews */ = {
+			isa = PBXGroup;
+			children = (
+				F28BAD662A8ABE300035D4CD /* AlbumExpandedView.swift */,
+				F2F2E8512A948549007E7347 /* ArtistExpandedView.swift */,
+				F2F2E8532A948560007E7347 /* SongExpandedView.swift */,
+			);
+			path = ModalViews;
+			sourceTree = "<group>";
+		};
+		F2A3E9EF2A983590001855CA /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				F2B933BB2A856222007604CF /* SpecView.swift */,
+				F2F718492A9A5FA5002AF28D /* SongStatView.swift */,
+				F2F7184B2A9A5FBD002AF28D /* ArtistStatView.swift */,
+				F2F7184D2A9A5FC8002AF28D /* AlbumStatView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		F2F2035A2A8499790034FF4F = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +191,19 @@
 		F2F203652A8499790034FF4F /* Musie */ = {
 			isa = PBXGroup;
 			children = (
+				F2F203902A849A8C0034FF4F /* Info.plist */,
 				F2F203662A8499790034FF4F /* MusieApp.swift */,
+				F22EA6142AA95B1800180ECC /* APIHandler.swift */,
 				F2F203682A8499790034FF4F /* ContentView.swift */,
 				F2F2036A2A84997A0034FF4F /* Assets.xcassets */,
 				F2F2036C2A84997A0034FF4F /* Preview Content */,
+				F28BAD6A2A8AC4430035D4CD /* Modal.swift */,
+				F202F4F22A8929220012E191 /* LibraryData.swift */,
+				F2CB06302A8BF39400BD45C7 /* Helpers.swift */,
+				F238E54E2AAC205B0081AD0B /* Realm.swift */,
+				F2A0338F2AA9964400185A1A /* Font */,
+				F2A3E9EC2A983537001855CA /* Views */,
+				F2F55A202A8DD42200F6E48D /* MediaDetailView.swift */,
 			);
 			path = Musie;
 			sourceTree = "<group>";
@@ -143,6 +249,10 @@
 			dependencies = (
 			);
 			name = Musie;
+			packageProductDependencies = (
+				F235A8832AAC2FDB00517F19 /* Realm */,
+				F235A8852AAC2FDB00517F19 /* RealmSwift */,
+			);
 			productName = Musie;
 			productReference = F2F203632A8499790034FF4F /* Musie.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +325,9 @@
 				Base,
 			);
 			mainGroup = F2F2035A2A8499790034FF4F;
+			packageReferences = (
+				F235A8822AAC2FDB00517F19 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = F2F203642A8499790034FF4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +344,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A033912AA9966800185A1A /* Poppins-Regular.ttf in Resources */,
+				F2A033932AA99AF800185A1A /* VarelaRound-Regular.ttf in Resources */,
 				F2F2036E2A84997A0034FF4F /* Preview Assets.xcassets in Resources */,
 				F2F2036B2A84997A0034FF4F /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +372,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F202F4F32A8929220012E191 /* LibraryData.swift in Sources */,
+				F28BAD6B2A8AC4430035D4CD /* Modal.swift in Sources */,
+				F28BAD672A8ABE300035D4CD /* AlbumExpandedView.swift in Sources */,
+				F2B933B82A855485007604CF /* LibraryStatView.swift in Sources */,
+				F2F2E8522A948549007E7347 /* ArtistExpandedView.swift in Sources */,
 				F2F203692A8499790034FF4F /* ContentView.swift in Sources */,
+				F2813B752A8C8BB90032334A /* SplashView.swift in Sources */,
+				F2F55A212A8DD42200F6E48D /* MediaDetailView.swift in Sources */,
 				F2F203672A8499790034FF4F /* MusieApp.swift in Sources */,
+				F2CB06312A8BF39400BD45C7 /* Helpers.swift in Sources */,
+				F2F2E8542A948560007E7347 /* SongExpandedView.swift in Sources */,
+				F2F7184A2A9A5FA5002AF28D /* SongStatView.swift in Sources */,
+				F2B933BA2A8559A1007604CF /* DetailedStatView.swift in Sources */,
+				F2F7184C2A9A5FBD002AF28D /* ArtistStatView.swift in Sources */,
+				F238E54F2AAC205B0081AD0B /* Realm.swift in Sources */,
+				F2B933B62A855347007604CF /* TopView.swift in Sources */,
+				F2CA60B72A9D48B0002F7214 /* InsightsView.swift in Sources */,
+				F2B933BC2A856222007604CF /* SpecView.swift in Sources */,
+				F2F7184E2A9A5FC8002AF28D /* AlbumStatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2F203782A84997A0034FF4F /* MusieTests.swift in Sources */,
+				F22EA6152AA95B1800180ECC /* APIHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,17 +558,18 @@
 				DEVELOPMENT_TEAM = 25FTLXXJD3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Musie/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Musie would like to sync with your Apple Music library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Me.Musie;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.arthpatel.Musie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,17 +588,18 @@
 				DEVELOPMENT_TEAM = 25FTLXXJD3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Musie/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Musie would like to sync with your Apple Music library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Me.Musie;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.arthpatel.Musie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -588,6 +723,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F235A8822AAC2FDB00517F19 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F235A8832AAC2FDB00517F19 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F235A8822AAC2FDB00517F19 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F235A8852AAC2FDB00517F19 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F235A8822AAC2FDB00517F19 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2F2035B2A8499790034FF4F /* Project object */;
 }

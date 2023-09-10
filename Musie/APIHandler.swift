@@ -1,13 +1,14 @@
 //
-//  MusieUITests.swift
-//  MusieUITests
+//  APIHandler.swift
+//  MusieTests
 //
-//  Created by Arth Patel on 8/10/23.
+//  Created by Arth Patel on 9/6/23.
 //
 
 import XCTest
+//arrange, act, assert
 
-final class MusieUITests: XCTestCase {
+final class APIHandler: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -37,10 +38,5 @@ final class MusieUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
-        
-        
     }
 }
-
-
-
