@@ -17,9 +17,11 @@ Motivation
 
   <p>
      <img src="https://github.com/patelarth0311/Musie/assets/82795337/9d85e5a5-ca9d-45eb-bdb2-386061ace4c5" width="25%" /> 
-    Home View
+ <p>
+      Home View
     - Gauge your total minutes spent listening and your total song play counts 
     - View all your songs, artists, and albums
+ </p>
   </p>
  
 
