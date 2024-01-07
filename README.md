@@ -10,7 +10,7 @@ Motivation
 
 
 <p align="middle">
-  <p width="25%" align="middle">
+  <p >
   <img src="https://github.com/patelarth0311/Musie/assets/82795337/935b1b71-407a-45ce-838b-5380289f3e5b"  width="25%"/>
   Splash Screen
   <p>
