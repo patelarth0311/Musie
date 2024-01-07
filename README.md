@@ -34,7 +34,7 @@ Motivation
 </p>
 
 <p align="middle">
-  <p align="middle">
+  <p >
      <img src="https://github.com/patelarth0311/Musie/assets/82795337/9171b889-9ce1-4f1e-8a51-edd6b2c34a0a" width="25%" />
      <img src="https://github.com/patelarth0311/Musie/assets/82795337/322e9ae9-21ae-4862-a7fc-507968f0348b" width="25%" /> 
     Artist View
