@@ -5,6 +5,10 @@ Tech Stack
 - MongoDB
 
 
+Motivation
+- I wanted to get insights into my Apple Music activity, so I decided to create this interesting, fun app!
+
+
 <p align="middle">
   <img src="https://github.com/patelarth0311/Musie/assets/82795337/935b1b71-407a-45ce-838b-5380289f3e5b" width="25%" />
   <img src="https://github.com/patelarth0311/Musie/assets/82795337/9d85e5a5-ca9d-45eb-bdb2-386061ace4c5" width="25%" /> 
